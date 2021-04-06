@@ -70,7 +70,14 @@ body {
 
 .navegacion nav ul li .submenu .submenu-items p{
   font-weight: 600;
+  width: 110px;
   display: block;
   padding-bottom: 5px;
   border-bottom: 1px solid #565656;
+  margin-bottom: 10px;
+}
+
+.navegacion nav ul li .submenu .submenu-items a{
+  color: #474747;
+  text-decoration: none;
 }
