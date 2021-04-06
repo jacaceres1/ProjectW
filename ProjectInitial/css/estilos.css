@@ -54,7 +54,7 @@ body {
 }
 
 .navegacion nav ul li .submenu{
-  background: #e4e4e4;
+  background: #e3e3e3;
   padding: 20px;
   position: absolute;
   display: none;
@@ -78,6 +78,12 @@ body {
 }
 
 .navegacion nav ul li .submenu .submenu-items a{
-  color: #474747;
+  color: #454545;
   text-decoration: none;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.navegacion nav ul li .submenu .submenu-items a:hover{
+  color: red;
 }
