@@ -14,12 +14,14 @@ html {
 
 /*  */
 .header {
-  tablete background: rgb(226, 216, 217);
+  /* tablete background: rgb(226, 216, 217); */
+  background-color: black;
   back grid-column-start: x0;
   grid-column-end: x3;
   /* Equivalente a */
   grid-column: x0 / x3;
-  flex-content:
+  /* flex-content: */
+  padding: 20px;
 }
 
 .sidebar {
@@ -45,7 +47,7 @@ html {
 }
 
 .footer {
-  background: rgb(157, 205, 156);
+  /* background: rgb(157, 205, 156); */
   grid-column: x0 / x3;
   grid-row: y3;
   margin-right: 0.5rem;
@@ -200,99 +202,7 @@ html {
   /* padding: 1rem; */
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
 
-body {
-  background: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 15px;
-}
-
-.navegacion {
-  width: 100%;
-}
-
-.navegacion nav {
-  width: 100%;
-  max-width: 1200px;
-  background: white;
-  margin: 40px;
-}
-
-.navegacion nav ul {
-  list-style: none;
-  position: relative;
-}
-
-.navegacion nav>ul>li {
-  display: inline-block;
-}
-
-.navegacion nav>ul>li>a {
-  color: black;
-  text-decoration: none;
-  display: block;
-  padding: 30px;
-}
-
-.navegacion nav img {
-  display: inline-block;
-  margin-top: 10px;
-}
-
-.navegacion nav>ul>li>a span {
-  font-size: 20px;
-  /* position: absolute; */
-  display: none;
-}
-
-.navegacion nav>ul>li:hover span {
-  display: block;
-}
-
-.navegacion nav ul li .submenu {
-  background: #e3e3e3;
-  padding: 20px;
-  position: absolute;
-  display: none;
-}
-
-.navegacion nav ul li:hover .submenu {
-  display: flex;
-}
-
-.navegacion nav ul li .submenu .submenu-items {
-  margin: 0 20px;
-}
-
-.navegacion nav ul li .submenu .submenu-items p {
-  font-weight: 600;
-  width: 110px;
-  display: block;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #565656;
-  margin-bottom: 10px;
-}
-
-.navegacion nav ul li .submenu .submenu-items a {
-  color: #454545;
-  text-decoration: none;
-  margin-bottom: 10px;
-  padding-bottom: 5px;
-}
-
-.navegacion nav ul li .submenu .submenu-items a:hover {
-  color: red;
-}
-
-a.l{
-  color: black;
-  text-decoration: none;
-  background-color: transparent;
-}
 
 .btn {
   display: inline-block;
