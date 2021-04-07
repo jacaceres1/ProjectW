@@ -33,6 +33,7 @@ input[type="password"]{
     border: 1px solid #aaa;
 }
 .icon{
+    
     min-width: 50px;
     text-align: center;
     color: #999;
